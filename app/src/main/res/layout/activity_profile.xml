@@ -8,6 +8,280 @@
     tools:context=".Profile">
 
     <RelativeLayout
+        android:id="@+id/Ref"
+        android:layout_width="342dp"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Card"
+        app:layout_constraintVertical_bias="0.058">
+
+        <RelativeLayout
+            android:id="@+id/Ref1"
+            android:layout_width="261dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toStartOf="@+id/imgStrel3">
+
+            <TextView
+                android:id="@+id/textRef"
+                android:layout_width="162dp"
+                android:layout_height="17dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="19dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Referrals"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textRef1"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/roboto"
+                android:text="check no of friends and earn"
+                android:textColor="#A7A7A7"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgRef"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="311dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/img_1" />
+
+        <ImageView
+            android:id="@+id/imgStrel3"
+            android:layout_width="4dp"
+            android:layout_height="7dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="27dp"
+            app:srcCompat="@drawable/img_3" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Card"
+        android:layout_width="342dp"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Notification"
+        app:layout_constraintVertical_bias="0.043">
+
+        <RelativeLayout
+            android:id="@+id/Card1"
+            android:layout_width="261dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toStartOf="@+id/imgStrel2">
+
+            <TextView
+                android:id="@+id/textCard"
+                android:layout_width="162dp"
+                android:layout_height="17dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="19dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Card &amp; Bank account settings"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textCard1"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/roboto"
+                android:text="change cards, delete card details"
+                android:textColor="#A7A7A7"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgCard"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="311dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/card" />
+
+        <ImageView
+            android:id="@+id/imgStrel2"
+            android:layout_width="4dp"
+            android:layout_height="7dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="27dp"
+            app:srcCompat="@drawable/img_3" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Notification"
+        android:layout_width="342dp"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="256dp"
+        android:background="#FFFFFF"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Statements"
+        app:layout_constraintVertical_bias="0.155">
+
+        <RelativeLayout
+            android:id="@+id/Notification1"
+            android:layout_width="261dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toStartOf="@+id/imgStrel">
+
+            <TextView
+                android:id="@+id/textNotif"
+                android:layout_width="162dp"
+                android:layout_height="17dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="19dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Notification Settings"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textNotif1"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/roboto"
+                android:text="mute, unmute, set location &amp; tracking setting"
+                android:textColor="#A7A7A7"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgNotif"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="311dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/notification" />
+
+        <ImageView
+            android:id="@+id/imgStrel1"
+            android:layout_width="4dp"
+            android:layout_height="7dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="27dp"
+            app:srcCompat="@drawable/img_3" />
+    </RelativeLayout>
+
+    <RelativeLayout
         android:id="@+id/Statements"
         android:layout_width="342dp"
         android:layout_height="62dp"
@@ -20,7 +294,7 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_profil"
-        app:layout_constraintVertical_bias="0.039">
+        app:layout_constraintVertical_bias="0.018">
 
         <RelativeLayout
             android:id="@+id/Statements1"
@@ -111,7 +385,7 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frame_192"
-        app:layout_constraintVertical_bias="0.039">
+        app:layout_constraintVertical_bias="0.016">
 
         <RelativeLayout
             android:id="@+id/frame_118"
@@ -195,13 +469,12 @@
         android:layout_height="26dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintHorizontal_bias="0.357"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frame_210"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.013">
 
         <TextView
             android:id="@+id/textView7"
