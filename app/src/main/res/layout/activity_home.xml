@@ -18,7 +18,7 @@
         android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
@@ -39,6 +39,17 @@
             android:layout_marginEnd="130dp"
             android:layout_marginBottom="16dp">
 
+            <Button
+                android:id="@+id/btnTrack"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:backgroundTint="#FFFFFF"
+                app:icon="@drawable/track"
+                app:iconGravity="textEnd"
+                app:iconPadding="0dp"
+                app:iconSize="20dp"
+                app:iconTint="#A7A7A7" />
+
             <TextView
                 android:id="@+id/textTrack"
                 android:layout_width="33dp"
@@ -56,21 +67,6 @@
                 android:textColor="#A7A7A7"
                 android:textFontWeight="400"
                 android:textSize="12sp" />
-
-            <Button
-                android:id="@+id/btnTrack"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_above="@+id/textTrack"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="6dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="6dp"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/track"
-                android:text="Button" />
 
         </RelativeLayout>
 
@@ -109,17 +105,12 @@
                 android:id="@+id/btnProfile"
                 android:layout_width="match_parent"
                 android:layout_height="31dp"
-                android:layout_above="@+id/textProfile"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="6dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="6dp"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/profile"
-                android:backgroundTint="#A7A7A7"
-                android:text="Button" />
+                android:backgroundTint="#FFFFFF"
+                app:icon="@drawable/profile"
+                app:iconGravity="textEnd"
+                app:iconPadding="0dp"
+                app:iconSize="20dp"
+                app:iconTint="#A7A7A7" />
 
         </RelativeLayout>
 
@@ -136,6 +127,17 @@
             android:layout_marginEnd="246dp"
             android:layout_marginBottom="16dp">
 
+
+            <Button
+                android:id="@+id/btnWallet"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:backgroundTint="#FFFFFF"
+                app:icon="@drawable/wallet"
+                app:iconGravity="textEnd"
+                app:iconPadding="0dp"
+                app:iconSize="20dp"
+                app:iconTint="#A7A7A7" />
 
             <TextView
                 android:id="@+id/textWallet"
@@ -154,21 +156,6 @@
                 android:textColor="#A7A7A7"
                 android:textFontWeight="400"
                 android:textSize="12sp" />
-
-            <Button
-                android:id="@+id/btnWallet"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_above="@+id/textWallet"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="6dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="6dp"
-                android:layout_marginBottom="5dp"
-                android:background="@drawable/wallet"
-                android:text="Button" />
 
         </RelativeLayout>
 
@@ -198,6 +185,17 @@
             android:layout_marginEnd="360dp"
             android:layout_marginBottom="16dp">
 
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:backgroundTint="#FFFFFF"
+                app:icon="@drawable/home"
+                app:iconGravity="textEnd"
+                app:iconPadding="0dp"
+                app:iconSize="20dp"
+                app:iconTintMode="multiply" />
+
             <TextView
                 android:id="@+id/textHome"
                 android:layout_width="33dp"
@@ -216,20 +214,6 @@
                 android:textFontWeight="400"
                 android:textSize="12sp" />
 
-            <ImageView
-                android:id="@+id/imgHome"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_above="@+id/textHome"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="6dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="6dp"
-                android:layout_marginBottom="5dp"
-                android:src="@drawable/home"
-                />
         </RelativeLayout>
     </RelativeLayout>
 
