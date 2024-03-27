@@ -50,7 +50,7 @@
                 android:layout_marginEnd="21dp"
                 android:layout_marginBottom="19dp"
                 android:fontFamily="@font/roboto_medium"
-                android:text="Statements & Reports"
+                android:text="Statements &amp; Reports"
                 android:textSize="16sp" />
 
             <TextView
@@ -83,7 +83,7 @@
             android:layout_marginTop="23dp"
             android:layout_marginEnd="311dp"
             android:layout_marginBottom="20dp"
-            app:srcCompat="@drawable/Statements" />
+            app:srcCompat="@drawable/state" />
 
         <ImageView
             android:id="@+id/imgStrel"
@@ -174,7 +174,7 @@
             android:layout_marginTop="23dp"
             android:layout_marginEnd="311dp"
             android:layout_marginBottom="20dp"
-            app:srcCompat="@drawable/EditProf" />
+            app:srcCompat="@drawable/editprof" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -337,7 +337,7 @@
             android:layout_marginTop="7.5dp"
             android:layout_marginEnd="287dp"
             android:layout_marginBottom="7.5dp"
-            app:srcCompat="@drawable/Photo" />
+            app:srcCompat="@drawable/photo" />
 
         <ImageView
             android:id="@+id/imageView2"
