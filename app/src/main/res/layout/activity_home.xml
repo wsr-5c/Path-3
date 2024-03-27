@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:id="@+id/component_2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:clipToOutline="true"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <!-- drawable/rectangle_3.xml -->
+
+
+        <RelativeLayout
+            android:id="@+id/frameTrack"
+            android:layout_width="33dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="246dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="130dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/textTrack"
+                android:layout_width="33dp"
+                android:layout_height="14dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/roboto"
+                android:lineHeight="14sp"
+                android:text="Track"
+                android:textAlignment="center"
+                android:textColor="#A7A7A7"
+                android:textFontWeight="400"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnTrack"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_above="@+id/textTrack"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/track"
+                android:text="Button" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frameProfile"
+            android:layout_width="33dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="360dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/textProfile"
+                android:layout_width="33dp"
+                android:layout_height="14dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/roboto"
+                android:lineHeight="14sp"
+                android:text="Profile"
+                android:textAlignment="center"
+                android:textColor="#A7A7A7"
+                android:textFontWeight="400"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnProfile"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:layout_above="@+id/textProfile"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/profile"
+                android:backgroundTint="#A7A7A7"
+                android:clickable="true"
+                android:text="Button" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frameWallet"
+            android:layout_width="33dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="246dp"
+            android:layout_marginBottom="16dp">
+
+
+            <TextView
+                android:id="@+id/textWallet"
+                android:layout_width="33dp"
+                android:layout_height="14dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/roboto"
+                android:lineHeight="14sp"
+                android:text="Wallet"
+                android:textAlignment="center"
+                android:textColor="#A7A7A7"
+                android:textFontWeight="400"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnWallet"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_above="@+id/textWallet"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/wallet"
+                android:text="Button" />
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/rectangle_3"
+            android:layout_width="42dp"
+            android:layout_height="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="357dp"
+            android:background="@drawable/img"
+            android:elevation="2dp" />
+
+        <RelativeLayout
+            android:id="@+id/frameHome"
+            android:layout_width="33dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="360dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/textHome"
+                android:layout_width="33dp"
+                android:layout_height="14dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/roboto"
+                android:lineHeight="14sp"
+                android:text="Home"
+                android:textAlignment="center"
+                android:textColor="#0560FA"
+                android:textFontWeight="400"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imgHome"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_above="@+id/textHome"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/home" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
